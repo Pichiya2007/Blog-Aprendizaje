@@ -5,7 +5,7 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
-import courseRoutes from ''
+import courseRoutes from '../src/courses/course.routes.js';
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
