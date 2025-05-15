@@ -1,19 +1,19 @@
 import { Schema, model } from 'mongoose';
 
-const PostSchema = Schema({
-    title: {
+const CommentSchema = Schema({
+    username: {
         type: String,
         required: true,
-        maxLength: [50, 'Title must be less than 50 characters']
+        maxLength: [50, 'Username must be less than 50 characters']
     },
-    description: {
+    content: {
         type: String,
         required: true,
-        maxLength: [500, 'Description must be less than 50 characters']
+        maxLength: [500, 'Content must be less than 500 characters']
     },
-    course: {
+    post: {
         type: Schema.Types.ObjectId,
-        ref: 'Course',
+        ref: 'Post',
         required: true
     },
     status: {
@@ -27,4 +27,4 @@ const PostSchema = Schema({
     }
 )
 
-export default model('Post', PostSchema);
+export default model('Comment', CommentSchema);

@@ -6,6 +6,8 @@ import helmet from 'helmet';
 import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
 import courseRoutes from '../src/courses/course.routes.js';
+import postRoutes from '../src/posts/post.routes.js';
+import commentRoutes from '../src/comments/comment.routes.js';
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
@@ -17,6 +19,8 @@ const middlewares = (app) => {
 
 const routes = (app) => {
     app.use('/blog/v1/courses', courseRoutes);
+    app.use('/blog/v1/posts', postRoutes);
+    app.use('/blog/v1/comments', commentRoutes);
 }
 
 const conectarDB = async () => {
