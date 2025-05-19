@@ -1,0 +1,510 @@
+[{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbda"
+  },
+  "title": "Creatividad en acción",
+  "description": "Exploramos cómo aplicar técnicas creativas en la solución de problemas reales dentro del aula.",
+  "course": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.559Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbdb"
+  },
+  "title": "Design Thinking básico",
+  "description": "Introducción al proceso de design thinking para fomentar la innovación en equipos.",
+  "course": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.559Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbdc"
+  },
+  "title": "Dinámicas de grupo",
+  "description": "Se implementaron juegos colaborativos para mejorar la comunicación y creatividad grupal.",
+  "course": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbdd"
+  },
+  "title": "Resolución de retos",
+  "description": "Los estudiantes resolvieron casos prácticos con pensamiento lateral y lluvia de ideas.",
+  "course": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbde"
+  },
+  "title": "Prototipos rápidos",
+  "description": "Se utilizaron materiales reciclados para construir prototipos funcionales en 20 minutos.",
+  "course": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbdf"
+  },
+  "title": "Historias de éxito",
+  "description": "Se analizaron proyectos innovadores liderados por jóvenes emprendedores locales.",
+  "course": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbe0"
+  },
+  "title": "Juego de roles creativos",
+  "description": "Se asignaron roles aleatorios para improvisar soluciones frente a situaciones ficticias.",
+  "course": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbe1"
+  },
+  "title": "Canvas de ideas",
+  "description": "Cada grupo llenó un lienzo de ideas con propuestas de impacto social.",
+  "course": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbe2"
+  },
+  "title": "Competencia de innovación",
+  "description": "Actividad grupal para presentar ideas innovadoras en formato pitch.",
+  "course": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbe3"
+  },
+  "title": "Evaluación del taller",
+  "description": "Reflexión final de los participantes sobre los aprendizajes adquiridos en el proceso creativo.",
+  "course": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbe4"
+  },
+  "title": "Inicio de prácticas",
+  "description": "Primera sesión de inducción con las normas del centro de práctica y presentación de tutores.",
+  "course": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbe5"
+  },
+  "title": "Bitácora diaria",
+  "description": "Registro detallado de las actividades realizadas durante la primera semana de práctica.",
+  "course": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbe6"
+  },
+  "title": "Resolución de conflictos",
+  "description": "Caso práctico resuelto en el entorno laboral aplicando principios éticos.",
+  "course": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbe7"
+  },
+  "title": "Supervisión docente",
+  "description": "Evaluación de desempeño durante la observación directa del tutor asignado.",
+  "course": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbe8"
+  },
+  "title": "Informe de mitad de ciclo",
+  "description": "Documento intermedio que recopila los logros, desafíos y aprendizajes hasta la fecha.",
+  "course": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbe9"
+  },
+  "title": "Retroalimentación profesional",
+  "description": "Sesión de análisis con el supervisor para mejorar el desempeño y el compromiso.",
+  "course": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbea"
+  },
+  "title": "Integración al equipo",
+  "description": "Relato sobre la participación activa en reuniones internas y colaboraciones.",
+  "course": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbeb"
+  },
+  "title": "Solución de un caso real",
+  "description": "Intervención práctica basada en un problema detectado por el estudiante en el entorno laboral.",
+  "course": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbec"
+  },
+  "title": "Jornada de cierre",
+  "description": "Último día de práctica con presentación de conclusiones al equipo profesional.",
+  "course": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbed"
+  },
+  "title": "Informe final",
+  "description": "Entrega del documento que sintetiza todo el proceso de aprendizaje y logros personales.",
+  "course": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbee"
+  },
+  "title": "Introducción al cloud computing",
+  "description": "Exploramos los conceptos básicos de servicios en la nube con ejemplos en AWS y Google Cloud.",
+  "course": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbef"
+  },
+  "title": "Fundamentos de IA",
+  "description": "Vimos cómo funciona la inteligencia artificial y sus principales áreas de aplicación.",
+  "course": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbf0"
+  },
+  "title": "Big Data en acción",
+  "description": "Analizamos cómo las empresas recopilan y procesan grandes volúmenes de datos.",
+  "course": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbf1"
+  },
+  "title": "Transformación digital",
+  "description": "Debate sobre cómo las organizaciones adoptan tecnologías para modernizarse.",
+  "course": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbf2"
+  },
+  "title": "Ciberseguridad básica",
+  "description": "Conceptos esenciales para proteger la información digital de amenazas comunes.",
+  "course": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbf3"
+  },
+  "title": "API y servicios web",
+  "description": "Explicación y uso de APIs para conectar aplicaciones entre sí.",
+  "course": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbf4"
+  },
+  "title": "Frontend vs Backend",
+  "description": "Diferencias clave entre el desarrollo del lado cliente y servidor.",
+  "course": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbf5"
+  },
+  "title": "IoT y su impacto",
+  "description": "Vimos ejemplos de cómo los dispositivos conectados transforman industrias.",
+  "course": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbf6"
+  },
+  "title": "Automatización con scripts",
+  "description": "Aprendimos a crear scripts básicos para tareas repetitivas.",
+  "course": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ac306460dabcd5de0dbf7"
+  },
+  "title": "Taller final de integración",
+  "description": "Aplicamos todo lo aprendido en un proyecto integrador utilizando herramientas tecnológicas.",
+  "course": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T05:35:02.560Z"
+  }
+}]

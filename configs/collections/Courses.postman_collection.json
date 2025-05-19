@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "e7af4ea2-a9bd-4f1a-bb6f-370df97610cc",
+		"name": "Courses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37540016"
+	},
+	"item": [
+		{
+			"name": "addCourse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Tecnología\",\r\n    \"description\": \"ASKDJAKS\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/blog/v1/courses/"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/blog/v1/courses"
+			},
+			"response": []
+		}
+	]
+}

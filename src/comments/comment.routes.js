@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { check } from 'express-validator';
-import { addComment, getComments } from './comment.controller.js';
+import { addComment, getComments, getCommentsByPost } from './comment.controller.js';
 
 const router = Router();
 
@@ -15,5 +15,7 @@ router.post(
 )
 
 router.get('/', getComments)
+
+router.get('/:id', getCommentsByPost)
 
 export default router;

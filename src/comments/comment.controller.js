@@ -71,3 +71,36 @@ export const getComments = async (req, res) => {
         })
     }
 }
+
+export const getCommentsByPost = async (req, res) => {
+    try {
+
+        const { id } = req.params;
+
+        const post = await Post.findById(id);
+
+        if (!post) {
+            return res.status(404).json({
+                success: false,
+                msg: 'Post not found'
+            })
+        }
+
+        const comments = await Comment.find({ post: id, status: true });
+
+        return res.status(200).json({
+            success: true,
+            msg: 'Comments fetched successfully',
+            total: comments.length,
+            comments,
+            post
+        })
+
+    } catch (error) {
+        return res.status(500).json({
+            success: false,
+            msg: 'Could not get comments by post',
+            error: error.message
+        })
+    }
+}

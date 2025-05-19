@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "68252080158353279141f13a"
+  },
+  "name": "Taller",
+  "description": "Taller está diseñado para estimular la creatividad y fomentar el pensamiento innovador en la resolución de problemas. A través de dinámicas participativas, estudios de caso y trabajo en equipo, los estudiantes desarrollarán habilidades prácticas para idear, prototipar y presentar soluciones originales en distintos contextos profesionales. Ideal para fortalecer competencias blandas y metodologías ágiles.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-14T23:00:16.689Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-14T23:00:16.689Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682586e71187234f989160e8"
+  },
+  "name": "Práctica Supervisada",
+  "description": "Este curso ofrece a los estudiantes una experiencia formativa en entornos laborales reales bajo la supervisión de un profesional del área. La práctica permite aplicar conocimientos teóricos, desarrollar competencias profesionales y adquirir una visión integral del ejercicio en su campo. Es un espacio de transición entre el ámbito académico y el profesional, fortaleciendo la ética, la responsabilidad y la capacidad de adaptación.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-15T06:17:11.101Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T06:17:11.101Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682ab5ac146d83f683c2095b"
+  },
+  "name": "Tecnología",
+  "description": "El curso brinda una introducción integral a las tecnologías emergentes y su impacto en los procesos organizacionales. Se abordan conceptos como la computación en la nube, inteligencia artificial, big data, ciberseguridad y transformación digital. Los estudiantes adquirirán una base sólida para comprender cómo la tecnología impulsa el cambio y mejora la competitividad en diversas industrias.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-05-19T04:38:04.110Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T04:38:04.110Z"
+  }
+}]

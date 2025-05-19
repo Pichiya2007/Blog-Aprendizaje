@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "c55f4966-0482-47e5-a7c6-80bc6e4f78bc",
+		"name": "Comments",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37540016"
+	},
+	"item": [
+		{
+			"name": "addComment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"username\": \"christinapugh\",\r\n    \"content\": \"El proceso fue claro y muy útil para desarrollar ideas.\",\r\n    \"post\": \"682ac306460dabcd5de0dbda\",\r\n    \"status\": true\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/blog/v1/comments"
+			},
+			"response": []
+		},
+		{
+			"name": "getComments",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"luis\",\r\n    \"content\": \"kasjdkas\",\r\n    \"post\": \"682520f67c68e7ea172b4cab\"\r\n}"
+				},
+				"url": "http://localhost:8080/blog/v1/comments/"
+			},
+			"response": []
+		},
+		{
+			"name": "getCommentByPost",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/blog/v1/comments/682ac306460dabcd5de0dbe0"
+			},
+			"response": []
+		}
+	]
+}

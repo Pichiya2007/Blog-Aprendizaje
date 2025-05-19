@@ -152,7 +152,7 @@ export const deletePost = async (req, res) => {
 export const getPostByTaller = async (req, res) => {
     try {
 
-        const course = await Course.findOne({ name: 'Taller' });
+        const course = await Course.findOne({ name: 'Taller' })
         if (!course) {
             return res.status(404).json({
                 success: false,
@@ -160,7 +160,7 @@ export const getPostByTaller = async (req, res) => {
             })
         }
 
-        const posts = await Post.find({ course: course._id, status: true });
+        const posts = await Post.find({ course: course._id, status: true }).populate('course', 'name')
 
         res.status(200).json({
             success: true,
@@ -189,7 +189,7 @@ export const getPostByPractica = async (req, res) => {
             })
         }
 
-        const posts = await Post.find({ course: course._id, status: true });
+        const posts = await Post.find({ course: course._id, status: true }).populate('course', 'name')
 
         res.status(200).json({
             success: true,
@@ -218,7 +218,7 @@ export const getPostByTecnologia = async (req, res) => {
             })
         }
 
-        const posts = await Post.find({ course: course._id, status: true });
+        const posts = await Post.find({ course: course._id, status: true }).populate('course', 'name')
 
         res.status(200).json({
             success: true,

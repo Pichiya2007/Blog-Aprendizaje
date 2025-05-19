@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "81da9462-dbd3-4940-a4da-50f1a19d5242",
+		"name": "Posts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37540016"
+	},
+	"item": [
+		{
+			"name": "addPost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"title\": \"Creatividad en acción\",\r\n    \"description\": \"Exploramos cómo aplicar técnicas creativas en la solución de problemas reales dentro del aula.\",\r\n    \"course\": \"68252080158353279141f13a\"\r\n  },\r\n  {\r\n    \"title\": \"Design Thinking básico\",\r\n    \"description\": \"Introducción al proceso de design thinking para fomentar la innovación en equipos.\",\r\n    \"course\": \"68252080158353279141f13a\"\r\n  },\r\n  {\r\n    \"title\": \"Dinámicas de grupo\",\r\n    \"description\": \"Se implementaron juegos colaborativos para mejorar la comunicación y creatividad grupal.\",\r\n    \"course\": \"68252080158353279141f13a\"\r\n  },\r\n  {\r\n    \"title\": \"Resolución de retos\",\r\n    \"description\": \"Los estudiantes resolvieron casos prácticos con pensamiento lateral y lluvia de ideas.\",\r\n    \"course\": \"68252080158353279141f13a\"\r\n  },\r\n  {\r\n    \"title\": \"Prototipos rápidos\",\r\n    \"description\": \"Se utilizaron materiales reciclados para construir prototipos funcionales en 20 minutos.\",\r\n    \"course\": \"68252080158353279141f13a\"\r\n  },\r\n  {\r\n    \"title\": \"Historias de éxito\",\r\n    \"description\": \"Se analizaron proyectos innovadores liderados por jóvenes emprendedores locales.\",\r\n    \"course\": \"68252080158353279141f13a\"\r\n  },\r\n  {\r\n    \"title\": \"Juego de roles creativos\",\r\n    \"description\": \"Se asignaron roles aleatorios para improvisar soluciones frente a situaciones ficticias.\",\r\n    \"course\": \"68252080158353279141f13a\"\r\n  },\r\n  {\r\n    \"title\": \"Canvas de ideas\",\r\n    \"description\": \"Cada grupo llenó un lienzo de ideas con propuestas de impacto social.\",\r\n    \"course\": \"68252080158353279141f13a\"\r\n  },\r\n  {\r\n    \"title\": \"Competencia de innovación\",\r\n    \"description\": \"Actividad grupal para presentar ideas innovadoras en formato pitch.\",\r\n    \"course\": \"68252080158353279141f13a\"\r\n  },\r\n  {\r\n    \"title\": \"Evaluación del taller\",\r\n    \"description\": \"Reflexión final de los participantes sobre los aprendizajes adquiridos en el proceso creativo.\",\r\n    \"course\": \"68252080158353279141f13a\"\r\n  },\r\n  {\r\n    \"title\": \"Inicio de prácticas\",\r\n    \"description\": \"Primera sesión de inducción con las normas del centro de práctica y presentación de tutores.\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n  },\r\n  {\r\n    \"title\": \"Bitácora diaria\",\r\n    \"description\": \"Registro detallado de las actividades realizadas durante la primera semana de práctica.\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n  },\r\n  {\r\n    \"title\": \"Resolución de conflictos\",\r\n    \"description\": \"Caso práctico resuelto en el entorno laboral aplicando principios éticos.\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n  },\r\n  {\r\n    \"title\": \"Supervisión docente\",\r\n    \"description\": \"Evaluación de desempeño durante la observación directa del tutor asignado.\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n  },\r\n  {\r\n    \"title\": \"Informe de mitad de ciclo\",\r\n    \"description\": \"Documento intermedio que recopila los logros, desafíos y aprendizajes hasta la fecha.\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n  },\r\n  {\r\n    \"title\": \"Retroalimentación profesional\",\r\n    \"description\": \"Sesión de análisis con el supervisor para mejorar el desempeño y el compromiso.\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n  },\r\n  {\r\n    \"title\": \"Integración al equipo\",\r\n    \"description\": \"Relato sobre la participación activa en reuniones internas y colaboraciones.\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n  },\r\n  {\r\n    \"title\": \"Solución de un caso real\",\r\n    \"description\": \"Intervención práctica basada en un problema detectado por el estudiante en el entorno laboral.\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n  },\r\n  {\r\n    \"title\": \"Jornada de cierre\",\r\n    \"description\": \"Último día de práctica con presentación de conclusiones al equipo profesional.\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n  },\r\n  {\r\n    \"title\": \"Informe final\",\r\n    \"description\": \"Entrega del documento que sintetiza todo el proceso de aprendizaje y logros personales.\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n  },\r\n  {\r\n    \"title\": \"Introducción al cloud computing\",\r\n    \"description\": \"Exploramos los conceptos básicos de servicios en la nube con ejemplos en AWS y Google Cloud.\",\r\n    \"course\": \"682ab5ac146d83f683c2095b\"\r\n  },\r\n  {\r\n    \"title\": \"Fundamentos de IA\",\r\n    \"description\": \"Vimos cómo funciona la inteligencia artificial y sus principales áreas de aplicación.\",\r\n    \"course\": \"682ab5ac146d83f683c2095b\"\r\n  },\r\n  {\r\n    \"title\": \"Big Data en acción\",\r\n    \"description\": \"Analizamos cómo las empresas recopilan y procesan grandes volúmenes de datos.\",\r\n    \"course\": \"682ab5ac146d83f683c2095b\"\r\n  },\r\n  {\r\n    \"title\": \"Transformación digital\",\r\n    \"description\": \"Debate sobre cómo las organizaciones adoptan tecnologías para modernizarse.\",\r\n    \"course\": \"682ab5ac146d83f683c2095b\"\r\n  },\r\n  {\r\n    \"title\": \"Ciberseguridad básica\",\r\n    \"description\": \"Conceptos esenciales para proteger la información digital de amenazas comunes.\",\r\n    \"course\": \"682ab5ac146d83f683c2095b\"\r\n  },\r\n  {\r\n    \"title\": \"API y servicios web\",\r\n    \"description\": \"Explicación y uso de APIs para conectar aplicaciones entre sí.\",\r\n    \"course\": \"682ab5ac146d83f683c2095b\"\r\n  },\r\n  {\r\n    \"title\": \"Frontend vs Backend\",\r\n    \"description\": \"Diferencias clave entre el desarrollo del lado cliente y servidor.\",\r\n    \"course\": \"682ab5ac146d83f683c2095b\"\r\n  },\r\n  {\r\n    \"title\": \"IoT y su impacto\",\r\n    \"description\": \"Vimos ejemplos de cómo los dispositivos conectados transforman industrias.\",\r\n    \"course\": \"682ab5ac146d83f683c2095b\"\r\n  },\r\n  {\r\n    \"title\": \"Automatización con scripts\",\r\n    \"description\": \"Aprendimos a crear scripts básicos para tareas repetitivas.\",\r\n    \"course\": \"682ab5ac146d83f683c2095b\"\r\n  },\r\n  {\r\n    \"title\": \"Taller final de integración\",\r\n    \"description\": \"Aplicamos todo lo aprendido en un proyecto integrador utilizando herramientas tecnológicas.\",\r\n    \"course\": \"682ab5ac146d83f683c2095b\"\r\n  }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/blog/v1/posts/"
+			},
+			"response": []
+		},
+		{
+			"name": "updatePost",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"taller\",\r\n    \"course\": \"682586e71187234f989160e8\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/blog/v1/posts/682520f67c68e7ea172b4cab"
+			},
+			"response": []
+		},
+		{
+			"name": "getPosts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Taller\",\r\n    \"description\": \"ASKDJAKS\"\r\n}"
+				},
+				"url": "http://localhost:8080/blog/v1/posts"
+			},
+			"response": []
+		},
+		{
+			"name": "getPostByTaller",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"luis\",\r\n    \"content\": \"kasjdkas\",\r\n    \"post\": \"682520f67c68e7ea172b4cab\"\r\n}"
+				},
+				"url": "http://localhost:8080/blog/v1/posts/Taller"
+			},
+			"response": []
+		},
+		{
+			"name": "getPostByPractica",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/blog/v1/posts/Practica"
+			},
+			"response": []
+		},
+		{
+			"name": "getPostsByTecnologia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/blog/v1/posts/Tecnologia"
+			},
+			"response": []
+		},
+		{
+			"name": "deletePost",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/blog/v1/posts/6825210ec89b0f66f290a93d"
+			},
+			"response": []
+		}
+	]
+}
