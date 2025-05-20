@@ -36,6 +36,80 @@ export const addComment = async (req, res) => {
     }
 }
 
+export const updateComment = async (req, res) => {
+    try {
+        
+        const { id } = req.params;
+        const { _id, post, ...data } = req.body;
+        const comment = await Comment.findById(id);
+
+        if (!comment) {
+            return res.status(404).json({
+                success: false,
+                msg: 'Comment not found',
+            })
+        }
+
+        if (post) {
+            const postExists = await Post.findById(post);
+            if (!postExists) {
+                return res.status(404).json({
+                    success: false,
+                    msg: 'Post not found'
+                })
+            }
+            comment.post = post;
+        }
+
+        Object.assign(comment, data);
+        await comment.save();
+
+        return res.status(200).json({
+            success: true,
+            msg: 'Comment updated successfully',
+            comment
+        })
+
+    } catch (error) {
+        return res.status(500).json({
+            success: false,
+            msg:'Could not update a commment',
+            error: error.message
+        })
+    }
+}
+
+export const deleteComment = async (req, res) => {
+    try {
+        
+        const { id } = req.params;
+        const comment = await Comment.findById(id);
+
+        if (!comment) {
+            return res.status(404).json({
+                success: false,
+                msg: 'Comment not found',
+            })
+        }
+
+        comment.status = false;
+        await comment.save();
+
+        return res.status(200).json({
+            success: true,
+            msg: 'Comment deleted successfully',
+            comment
+        })
+
+    } catch (error) {
+        return res.status(500).json({
+            success: false,
+            msg: 'Could not delete a comment',
+            error: error.message
+        })
+    }
+}
+
 export const getComments = async (req, res) => {
     try {
 

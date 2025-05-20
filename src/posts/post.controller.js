@@ -149,6 +149,37 @@ export const deletePost = async (req, res) => {
     }
 }
 
+export const getPostsByCourse = async (req, res) => {
+    try {
+        
+        const { id } = req.params;
+        const course = await Course.findById(id);
+
+        if (!course) {
+            return res.status(404).json({
+                success: false,
+                msg: 'Course not found',
+            })
+        }
+
+        const posts = await Post.find({ course: id, status: true }).populate('course', 'name')
+
+        return res.status(200).json({
+            success: true,
+            msg: 'Posts by course fetched successfully',
+            total: posts.length,
+            posts
+        })
+
+    } catch (error) {
+        return res.status(500).json({
+            success: false,
+            msg: 'Could not get posts by course',
+            error: error.message
+        })
+    }
+}
+
 export const getPostByTaller = async (req, res) => {
     try {
 
